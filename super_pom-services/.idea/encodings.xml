@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-createorder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-querystock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-createequipmentorder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-createnotepadentry-v1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-stockquantity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../digital-mobile-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../digital-mobile-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-availability-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-availability-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

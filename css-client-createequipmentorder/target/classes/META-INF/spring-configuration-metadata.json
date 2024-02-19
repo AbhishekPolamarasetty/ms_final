@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "css.createequipmentorder",
+      "type": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties",
+      "sourceType": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties"
+    },
+    {
+      "name": "css.createequipmentorder.service",
+      "type": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties$Service",
+      "sourceType": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties",
+      "sourceMethod": "public com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties.Service getService() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "css.createequipmentorder.service.connection-timeout-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties$Service"
+    },
+    {
+      "name": "css.createequipmentorder.service.create-equipment-order-soap-action",
+      "type": "java.lang.String",
+      "sourceType": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties$Service"
+    },
+    {
+      "name": "css.createequipmentorder.service.path",
+      "type": "java.lang.String",
+      "sourceType": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties$Service"
+    },
+    {
+      "name": "css.createequipmentorder.service.read-timeout-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bt.ms.im.css.createequipmentorder.CreateEquipmentOrderProperties$Service"
+    }
+  ],
+  "hints": []
+}

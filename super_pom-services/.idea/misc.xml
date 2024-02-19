@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../css-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../cmp-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../digital-mobile-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../stock-availability-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

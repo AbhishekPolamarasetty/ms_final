@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cmp-client/cmp-client.iml" filepath="$PROJECT_DIR$/../cmp-client/cmp-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-api-services.iml" filepath="$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-api-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-createorder/cmp-client-createorder.iml" filepath="$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-createorder/cmp-client-createorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-querystock/cmp-client-querystock.iml" filepath="$PROJECT_DIR$/../cmp-client/cmp-client-api-services/cmp-client-querystock/cmp-client-querystock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../css-client/css-client.iml" filepath="$PROJECT_DIR$/../css-client/css-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-api-services.iml" filepath="$PROJECT_DIR$/../css-client/css-client-api-services/css-client-api-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-createequipmentorder/css-client-createequipmentorder.iml" filepath="$PROJECT_DIR$/../css-client/css-client-api-services/css-client-createequipmentorder/css-client-createequipmentorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-createnotepadentry-v1/css-client-createnotepadentry-v1.iml" filepath="$PROJECT_DIR$/../css-client/css-client-api-services/css-client-createnotepadentry-v1/css-client-createnotepadentry-v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../css-client/css-client-api-services/css-client-stockquantity/css-client-stockquantity.iml" filepath="$PROJECT_DIR$/../css-client/css-client-api-services/css-client-stockquantity/css-client-stockquantity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../digital-mobile-order-service/digital-mobile-order-service.iml" filepath="$PROJECT_DIR$/../digital-mobile-order-service/digital-mobile-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stock-availability-service/stock-availability-service.iml" filepath="$PROJECT_DIR$/../stock-availability-service/stock-availability-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super_pom-services.iml" filepath="$PROJECT_DIR$/super_pom-services.iml" />
+    </modules>
+  </component>
+</project>

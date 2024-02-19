@@ -1,0 +1,33 @@
+image: registry.docker.nat.bt.com/im-microservices/docker-java8:1.0.0
+# image: kajal21/docker_java:1.0.0
+  
+#variable set to enforce path of .m2
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=/cache/.m2/repository"
+  
+#various stage to execute the job
+stages:
+  - build
+  - release
+  
+#script here will run before each job
+before_script:
+  - M2_HOME="/opt/apache-maven-3.5.3"
+  - PATH="${PATH}:/opt/apache-maven-3.5.3/bin"
+
+job build:
+  stage: build
+  script:
+    - mvn -Dmvn_user=$MAVEN_USER -Dmvn_pwd=$MAVEN_PASSWORD clean install $MAVEN_ARGS
+  artifacts:
+    paths:
+      - $PROJECT_PATH/target/
+    
+job release:
+  stage: release
+  dependencies:
+    - job build
+  script:
+  - mvn -Dmvn_user=$MAVEN_PUSH_USER -Dmvn_pwd=$MAVEN_PUSH_PASSWORD clean deploy $MAVEN_ARGS
+  only:
+    - web
